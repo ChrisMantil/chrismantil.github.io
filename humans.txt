@@ -1,0 +1,14 @@
+# PEOPLE
+
+Designer: Chris Mantil
+E-mail: design@chrismantil.com
+Website: chrismantil.ca
+GitHub: http://github.com/chrismantil.ca
+Twitter: @chrismantil
+
+# THANKS
+
+#TOOLS
+
+Sublime Text
+GitHub
