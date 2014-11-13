@@ -9,6 +9,7 @@
 
 html {
 	min-width: 15em;
+	font-family: 'Armata', sans-serif;
 }
 
 * {
@@ -51,8 +52,12 @@ img {
 	position: relative;
 }
 
+.rollover p {
+	color: white;
+}
+
 .rollover {
-	background: red;
+	background: #cb3227;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -62,7 +67,7 @@ img {
 }
 
 .rollover:hover {
-	background: red;
+	background: #cb3227;
 	position: absolute;
 	top: 0;
 	width: 100%;
