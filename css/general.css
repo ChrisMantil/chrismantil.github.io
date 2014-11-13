@@ -7,3 +7,52 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+html {
+	min-width: 15em;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.nav {
+	width: 100%;
+}
+
+.menuicon {
+	width: 10%;
+	margin-left:83%;
+	margin-top: 7%;
+}
+
+
+.navlogo {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+	margin-bottom: 30%;
+}
+
+.portfolio {
+	background-color: orange;
+	width: 100%;
+}
+
+@media only screen and (min-width: 350px) {
+
+html {
+}
+
+}
