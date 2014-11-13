@@ -48,6 +48,27 @@ img {
 .portfolio {
 	background-color: orange;
 	width: 100%;
+	position: relative;
+}
+
+.rollover {
+	background: red;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	opacity: 0;
+}
+
+.rollover:hover {
+	background: red;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	opacity: 100;
 }
 
 @media only screen and (min-width: 350px) {
