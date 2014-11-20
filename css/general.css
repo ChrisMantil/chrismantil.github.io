@@ -18,6 +18,19 @@ html {
   box-sizing: border-box;
 }
 
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+li{
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
 body {
 	margin: 0 auto;
 }
@@ -55,9 +68,12 @@ img {
 .rollover p {
 	color: white;
 	display: block;
-	padding-top: 3.2em;
-	padding-left: 3.5em;
-	padding-right: 3.5em;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 75%;
 }
 
 .rollover {
@@ -73,9 +89,26 @@ img {
 	opacity: 1;
 }
 
-@media only screen and (min-width: 350px) {
+footer {
+	background-color: gray;
+}
 
-html {
+.footer-content {
+	padding: 2em;
+}
+
+.footer-nav li {
+	font-size: .75em;
+}
+
+footer p {
+	font-size: .8em;
+}
+
+@media only screen and (min-width: 390px) {
+
+body {
+	background-color: blue;
 }
 
 }
