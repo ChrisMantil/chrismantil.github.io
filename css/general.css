@@ -27,10 +27,11 @@ li{
 	text-decoration: none;
 }
 
-a, a:visited, a:hover, a:active{
+a, a:visited, a:active, a:hover {
 	text-decoration: none;
 	color: inherit;
 }
+
 
 body {
 	margin: 0 auto;
@@ -120,10 +121,11 @@ footer {
 	padding-top: 1.5em;
 }
 
-.back-to-top p {
+.back-to-top a {
 	text-align: center;
 	margin: .5em;
-	text-transform: uppercase;
+	display: block;
+	font-size: .8em;
 }
 
 .footer-content {
