@@ -27,11 +27,8 @@ li{
 	text-decoration: none;
 }
 
-a {
+a, a:visited, a:hover, a:active{
 	text-decoration: none;
-}
-
-a:visited {
 	color: inherit;
 }
 
@@ -111,8 +108,27 @@ footer {
 	background-color: gray;
 }
 
+.top-arrow {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+
+	border-bottom: 10px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1.5em;
+}
+
+.back-to-top p {
+	text-align: center;
+	margin: .5em;
+	text-transform: uppercase;
+}
+
 .footer-content {
 	padding: 2em;
+	padding-top: 1em;
 }
 
 .footer-nav li {
