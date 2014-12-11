@@ -98,7 +98,7 @@ padding-right: 1.2em;
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 32%;
+	margin-top: 33%;
 	margin-bottom: 32%;
 }
 
@@ -145,6 +145,7 @@ footer {
 h3 {
 	margin: 0;
 	color: #666;
+	padding-bottom: .4em;
 }
 
 .top-arrow {
@@ -182,7 +183,7 @@ h3 {
 }
 
 .footer-nav ul {
-	margin-top: .6em;
+	margin-top: .3em;
 	margin-bottom: 2.4em;
 	color: #666;
 }
