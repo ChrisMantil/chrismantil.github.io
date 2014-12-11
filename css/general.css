@@ -43,8 +43,8 @@ img {
 	display: block;
 }
 
-.nav {
-	width: 100%;
+header {
+	border-bottom: solid #ccc 1px;
 }
 
 .navbar {
@@ -62,13 +62,6 @@ img {
 	color: #999;
 	font-size: .9em
 }
-
-.menuicon {
-	width: 8%;
-	margin-left:85%;
-	margin-top: 7%;
-}
-
 
 .navlogo {
 	width: 75%;
@@ -115,6 +108,7 @@ img {
 
 footer {
 	background-color: #333;
+	border-top: solid #999 1px;
 }
 
 h3 {
@@ -278,3 +272,18 @@ footer p {
 }
 
 }
+
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
