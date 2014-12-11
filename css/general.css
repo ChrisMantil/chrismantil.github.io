@@ -10,6 +10,7 @@
 html {
 	min-width: 15em;
 	font-family: 'Armata', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 * {
@@ -94,6 +95,7 @@ img {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 75%;
+	font-family: 'Armata', sans-serif;
 }
 
 .rollover {
@@ -149,6 +151,7 @@ h3 {
 .footer-nav li {
 	font-size: .8em;
 	padding-bottom: .4em;
+	font-family: 'Armata', sans-serif;
 }
 
 .footer-nav ul {
@@ -160,6 +163,7 @@ h3 {
 footer p {
 	font-size: .8em;
 	color: #666;
+	font-family: 'Armata', sans-serif;
 }
 
 @media only screen and (min-width: 23em) {
@@ -203,11 +207,12 @@ body {
 }
 
 .navlogo {
-	width: 30%;
+	width: 35%;
 	margin-left: 1em;
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom: .9em;
 	display: inline-block;
+	float: left;
 }
 
 .rollover {
@@ -227,7 +232,7 @@ body {
 	text-align: right;
 	margin-bottom: 1em;
 	margin-top: 1.7em;
-	margin-right: 1em;
+	margin-right: 1.2em;
 	float: right;
 }
 
@@ -236,6 +241,7 @@ body {
 	padding-left: .5em;
 	padding-right: .5em;
 	text-transform: uppercase;
+	font-size: .8em;
 }
 
 }
