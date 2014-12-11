@@ -242,3 +242,38 @@ footer p {
 }
 
 }
+
+@media only screen and (min-width: 33em) {
+
+.navlogo {
+	width: 179px;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: .9em;
+	display: inline-block;
+	float: left;
+}
+
+}
+
+@media only screen and (min-width: 42em) {
+
+.navlogo {
+	margin-left: 1.2em;
+}
+
+.navbar{
+	margin-right: 1.7em;
+}
+
+.footer-content {
+	padding: 2em;
+	padding-top: 1em;
+	padding-left: 2.3em;
+}
+
+.back-to-top a {
+	margin-bottom: 1.7em;
+}
+
+}
