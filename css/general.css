@@ -46,6 +46,7 @@ img {
 .mobile-nav {
 	background-color: #333;
 	border-bottom: solid 1px #999;
+	display: none;
 }
 
 .mobile-nav ul {
@@ -58,11 +59,19 @@ hr {
 
 .mobile-nav li {
 	color: white;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	padding-right: 2.6em;
+	padding-top: 1.3em;
+	padding-bottom: 1.3em;
+	padding-right: 2em;
 	text-align: right;
 	text-transform: uppercase;
+}
+
+.nav-btn {
+width: 15%;
+display: inline-block;
+float: right;
+padding-top: 1.2em;
+padding-right: 1.2em;
 }
 
 .navbar {
@@ -85,8 +94,8 @@ hr {
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30%;
-	margin-bottom: 30%;
+	margin-top: 32%;
+	margin-bottom: 32%;
 }
 
 .full-portfolio {
@@ -238,6 +247,10 @@ footer p {
 }
 
 .mobile-nav {
+	display:none;
+}
+
+.nav-btn {
 	display:none;
 }
 
