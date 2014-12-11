@@ -43,12 +43,30 @@ img {
 	display: block;
 }
 
-header {
-	border-bottom: solid #ccc 1px;
+.mobile-nav {
+	background-color: #333;
+	border-bottom: solid 1px #999;
+}
+
+.mobile-nav ul {
+	margin: 0;
+}
+
+hr {
+	margin: 0;
+}
+
+.mobile-nav li {
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 2.6em;
+	text-align: right;
+	text-transform: uppercase;
 }
 
 .navbar {
-	display: block;
+	display: none;
 	text-align: center;
 	margin-bottom: 1em;
 	margin-top: 1.8em;
@@ -67,7 +85,7 @@ header {
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 21%;
+	margin-top: 30%;
 	margin-bottom: 30%;
 }
 
@@ -217,6 +235,10 @@ footer p {
 
 .full-portfolio {
 	display: block;
+}
+
+.mobile-nav {
+	display:none;
 }
 
 .navbar {
