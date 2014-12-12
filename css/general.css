@@ -164,6 +164,10 @@ h3:hover {
 	color: white;
 }
 
+h3:active {
+	color: none;
+}
+
 .top-arrow {
 	width: 0;
 	height: 0;
