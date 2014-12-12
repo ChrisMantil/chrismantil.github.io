@@ -306,11 +306,22 @@ footer p {
 	background-size: cover;
 }
 
+.poppets {
+	background: transparent url("../img/poppets-full.jpg") no-repeat center top;
+	background-size: cover;
+}
+
 .hourly-phone {
 	width: 40%;
 	margin: 0;
 	padding-top: 5%;
 	padding-left: 5%;
+}
+
+.poppets-logo {
+	width: 80%;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
 }
