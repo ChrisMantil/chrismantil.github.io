@@ -140,6 +140,7 @@ padding-right: 1.2em;
 	filter: alpha(opacity=0);
 }
 
+
 .rollover:hover {
 	opacity: 1;
 	filter: alpha(opacity=100);
