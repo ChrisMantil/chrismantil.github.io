@@ -42,6 +42,7 @@ a:hover {
 
 body {
 	margin: 0 auto;
+	background-color: #e5e5e5;
 }
 
 img {
@@ -66,6 +67,11 @@ img {
 
 hr {
 	margin: 0;
+}
+
+header {
+	background-color: #fff;
+	margin: .7em;
 }
 
 .mobile-nav li {
@@ -115,7 +121,7 @@ padding-right: 1.2em;
 }
 
 .info {
-	background-color: orange;
+	background-color: #FFF;
 	padding: 1.2em;
 	margin-bottom: .7em;
 }
