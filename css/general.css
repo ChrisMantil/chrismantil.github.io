@@ -78,7 +78,7 @@ hr {
 }
 
 .nav-btn {
-width: 15%;
+width: 14%;
 display: inline-block;
 float: right;
 padding-top: 1.2em;
@@ -109,14 +109,29 @@ padding-right: 1.2em;
 	margin-bottom: 32%;
 }
 
-.full-portfolio {
-	display: none;
+.new {
+	margin-left: .7em;
+	margin-right: .7em;
 }
 
-.portfolio {
+.info {
 	background-color: orange;
-	width: 100%;
-	position: relative;
+	padding: 1.2em;
+	margin-bottom: .7em;
+}
+
+.info h2 {
+	margin: 0;
+	margin-bottom: .2em;
+	font-family: 'Armata', sans-serif;
+	font-size: 1em;
+}
+
+.info p {
+	margin: 0;
+	padding-bottom: .3em;
+	font-family: 'Armata', sans-serif;
+	font-size: .8em;
 }
 
 .rollover p {
@@ -219,153 +234,7 @@ footer p {
 	font-family: 'Armata', sans-serif;
 }
 
-@media only screen and (min-width: 23em) {
 
-.navlogo {
-	width: 71%;
-}
-
-.rollover p {
-	color: white;
-	display: block;
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	width: 70%;
-}
-
-}
-
-@media only screen and (min-width: 25em) {
-
-.rollover p {
-	color: white;
-	display: block;
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	width: 65%;
-}
-
-}
-
-@media only screen and (min-width: 27em) {
-
-.navlogo {
-	width: 35%;
-	margin-left: 1em;
-	margin-top: 1em;
-	margin-bottom: .9em;
-	display: inline-block;
-	float: left;
-}
-
-.rollover {
-	display: none;
-}
-
-.portfolio {
-	display: none;
-}
-
-.full-portfolio {
-	display: block;
-}
-
-.mobile-nav {
-	display:none;
-}
-
-.nav-btn {
-	display:none;
-}
-
-.navbar {
-	display: inline-block;
-	text-align: right;
-	margin-bottom: 1em;
-	margin-top: 2em;
-	margin-right: 1.2em;
-	float: right;
-}
-
-.navbar li {
-	display: inline-block;
-	padding-left: .5em;
-	padding-right: .5em;
-	text-transform: uppercase;
-	font-size: .8em;
-}
-
-.hourly {
-	background: transparent url("../img/hourly-full.jpg") no-repeat center top;
-	background-size: cover;
-}
-
-.poppets {
-	background: transparent url("../img/poppets-full.jpg") no-repeat center top;
-	background-size: cover;
-}
-
-.hourly-phone {
-	width: 40%;
-	margin: 0;
-	padding-top: 5%;
-	padding-left: 5%;
-}
-
-.poppets-logo {
-	width: 80%;
-	padding-top: 5em;
-	padding-bottom: 5em;
-}
-
-}
-
-@media only screen and (min-width: 33em) {
-
-.navlogo {
-	width: 179px;
-	margin-left: 1em;
-	margin-top: 1em;
-	margin-bottom: .9em;
-	display: inline-block;
-	float: left;
-}
-
-}
-
-@media only screen and (min-width: 42em) {
-
-.navlogo {
-	margin-left: 1.2em;
-}
-
-.navbar{
-	margin-right: 1.7em;
-}
-
-.nav-bottom {
-	width: 10em;
-	padding-left: 2.3em;
-	padding-top: 1em;
-}
-
-.footer-content {
-	padding: 2em;
-	padding-top: 0;
-	padding-left: 2.3em;
-}
-
-.back-to-top a {
-	margin-bottom: 1.7em;
-}
-
-}
 
 
 /* Clearfix */
